@@ -9,7 +9,8 @@ public class FPNumber {
 		// TODO Auto-generated method stub
 		
 		List<Integer> numbers = List.of(4,5,6,8,12,15,18);
-		numbers.stream().forEach(n -> System.out.println(n));
+		numbers.stream().
+		        forEach(System.out::println);
 		
 		System.out.println("Sum : " + numbers.stream().reduce(1,(n1,n2) -> n1*n2));
 		System.out.println("=======================================");
@@ -22,6 +23,11 @@ public class FPNumber {
 		System.out.println("=======================================");
 		
 		str.stream().sorted().forEach(p -> System.out.println(p));
+		
+		System.out.println(2/7.0);
+		
+		//str.stream().f
+		
 
 
 	}

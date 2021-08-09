@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-public class FuctionalProg1 {
+public class JavaStreams {
 	public static void main (String[] args) {
 		List<String> list1=List.of("Apple","Banana","Orange","Kiwi");
 		
